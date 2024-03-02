@@ -1,5 +1,5 @@
 # bat (Windows)
 
-JavaScript bat
+[Go bat](/Go)
 
-C bat
+[C bat](/C)
