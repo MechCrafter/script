@@ -13,9 +13,9 @@ import (
 
 func main() {
     // 定义视频和音频文件夹路径以及输出文件夹路径
-    videoDir := "D:\\ffmpeg\\ffmpeg_video"
-    audioDir := "D:\\ffmpeg\\ffmpeg_audio"
-    outputDir := "D:\\ffmpeg\\ffmpeg"
+    videoDir := "D:\\workspace\\ffmpeg\\ffmpeg_video"
+    audioDir := "D:\\workspace\\ffmpeg\\ffmpeg_audio"
+    outputDir := "D:\\workspace\\ffmpeg\\ffmpeg"
 
     // 遍历视频文件夹
     videoFiles, err := ioutil.ReadDir(videoDir)
