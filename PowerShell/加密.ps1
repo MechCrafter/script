@@ -11,7 +11,7 @@ foreach ($file in $files) {
     $relativePath = $file.FullName.Substring($folderPath.Length)
 
     # 构造加密后的文件名
-    $encryptedFileName = "$folderPath$relativePath.enc"
+    $encryptedFileName = "$folderPath$relativePath.aes"
 
     # 确保目标文件夹存在
     $destinationFolder = [System.IO.Path]::GetDirectoryName($encryptedFileName)
