@@ -19,7 +19,7 @@ foreach ($file in $files) {
         New-Item -ItemType Directory -Force -Path $destinationFolder
     }
 
-    # 使用 OpenSSL 进行加密
+    # 使用 OpenSSL 进行加密，把下列的 yourpassword 替换为你的密码
     openssl enc -aes-256-cbc -salt -pbkdf2 -iter 10000 -in $file.FullName -out $encryptedFileName -pass pass:yourpassword
 
     # 如果加密成功，删除原文件
