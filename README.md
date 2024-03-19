@@ -1,7 +1,7 @@
-# bat (Windows)
+# script (Windows)
 
-[Go bat](/Go)
+[Go script](/Go)
 
-[C bat](/C)
+[C script](/C)
 
-[PowerShell bat](/PowerShell)
+[PowerShell script](/PowerShell)
