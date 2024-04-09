@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	dir := "D:\\workspace\\ffmpeg\\jpg2webp" // 要处理的目录
+	dir := "C:\\Users\\admin\\Downloads\\新建文件夹\\2024-3-19.jpg" // 要处理的目录
 
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
